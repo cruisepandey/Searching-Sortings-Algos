@@ -19,8 +19,8 @@ public class LinearSearch {
 	public searchAndLocation search(int toSearched, int[] array){
 		for(int i=0; i<=array.length-1; i++){
 			if(toSearched==array[i])
-				return new searchAndLocation(true, i);
+			return new searchAndLocation(true, i);
 		}
-		return new searchAndLocation(false,0);
+			return new searchAndLocation(false,0);
 	}
 }
